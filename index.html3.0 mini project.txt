@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CareNest Health Center</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>CareNest Health Center</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="patients.html">Patients</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Welcome to CareNest</h2>
+      <p>Your trusted partner in healthcare management.</p>
+      <img src="doctor.jpg" alt="Doctor" class="doctor-image" />
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 CareNest Health Center</p>
+  </footer>
+</body>
+</html>
+2. Services Page (services.html)
+html
+Copy
+Edit
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Services - CareNest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Our Services</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="patients.html">Patients</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Doctors Information</h2>
+      <ul>
+        <li>Dr. A. Sharma - Cardiologist</li>
+        <li>Dr. R. Kapoor - Neurologist</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Bed Availability</h2>
+      <p>ICU Beds: 2 available</p>
+      <p>General Beds: 5 available</p>
+    </section>
+    <section>
+      <h2>Medicine Store</h2>
+      <ul>
+        <li>Paracetamol - In Stock</li>
+        <li>Ibuprofen - Out of Stock</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 CareNest Health Center</p>
+  </footer>
+</body>
+</html>
+3. Patients Page (patients.html)
+html
+Copy
+Edit
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Patients - CareNest</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Patient Services</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="patients.html">Patients</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Appointment Form</h2>
+      <form id="appointment-form">
+        <label for="patient-name">Name:</label>
+        <input type="text" id="patient-name" required />
+        <label for="disease">Disease:</label>
+        <input type="text" id="disease" required />
+        <button type="submit">Confirm Appointment</button>
+      </form>
+    </section>
+    <section>
+      <h2>Patient Information</h2>
+      <p>Name: John Doe</p>
+      <p>Disease: Flu</p>
+    </section>
+    <section>
+      <h2>Billing Invoice</h2>
+      <p>Consultation: $50</p>
+      <p>Medicines: $20</p>
+      <p>Total: $70</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 CareNest Health Center</p>
+  </footer>
+</body>
+</html>
